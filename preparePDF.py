@@ -46,7 +46,8 @@ if __name__ == "__main__":
         # create pdf
         #
         
-        os.system ("wkhtmltopdf  CertificateTemplate." + row[1].replace(" ", "") + ".html  pdf/CertificateTemplate." + row[1].replace(" ", "") + ".pdf")
+        os.system ("wkhtmltopdf  CertificateTemplate." + row[1].replace(" ", "") + ".html  pdf/Certificato." + row[1].replace(" ", "") + ".pdf")
+        os.system ("rm           CertificateTemplate." + row[1].replace(" ", "") + ".html ")
         
 
         
