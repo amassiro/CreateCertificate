@@ -9,4 +9,6 @@ Run:
 
     python preparePDF.py
     
+NB:
 
+    date is hardcoded in the code
