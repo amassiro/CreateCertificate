@@ -10,8 +10,11 @@ if __name__ == "__main__":
   #today_date = "8 Maggio 2021"
   #date_event = "7 Maggio 2021"
 
-  today_date = "12 Maggio 2021"
-  date_event = "11 Maggio 2021"
+  #today_date = "12 Maggio 2021"
+  #date_event = "11 Maggio 2021"
+
+  today_date = "8 Giugno 2021"
+  date_event = "7 Giugno 2021"
 
   
   with open('registrations.csv') as csv_file:
