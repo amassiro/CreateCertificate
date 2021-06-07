@@ -13,7 +13,7 @@ if __name__ == "__main__":
   #today_date = "12 Maggio 2021"
   #date_event = "11 Maggio 2021"
 
-  today_date = "8 Giugno 2021"
+  today_date = "7 Giugno 2021"
   date_event = "7 Giugno 2021"
 
   
