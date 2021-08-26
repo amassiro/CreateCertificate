@@ -8,6 +8,7 @@ Where:
 Run:
 
     python preparePDF.py
+    python preparePDFVBSCAN.py
     
 NB:
 
