@@ -13,3 +13,10 @@ Run:
 NB:
 
     date is hardcoded in the code
+
+Join pdf files:
+
+    pdftk pdf/*.pdf cat output merged.pdf
+    
+    
+    
