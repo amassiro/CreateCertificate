@@ -9,6 +9,7 @@ Run:
 
     python preparePDF.py
     python preparePDFVBSCAN.py
+    python preparePDF2022.py
     
 NB:
 
