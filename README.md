@@ -11,6 +11,7 @@ Run:
     python preparePDFVBSCAN.py
     python preparePDF2022.py
     python preparePDF2023.py
+    python preparePDF2024.py
     
 NB:
 
