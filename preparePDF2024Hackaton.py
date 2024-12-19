@@ -7,8 +7,8 @@ import os
 
 if __name__ == "__main__":
 
-  today_date = "20 Febbraio 2024"
-  date_event = "20 Febbraio 2024"
+  today_date = "20 February 2024"
+  date_event = "2-6 September 2024"
 
   
   with open('registrations-Dec2024.csv') as csv_file:
