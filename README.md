@@ -14,7 +14,6 @@ Run:
     python preparePDF2024.py
     python preparePDF2024Hackaton.py
 
-    
 NB:
 
     date is hardcoded in the code
