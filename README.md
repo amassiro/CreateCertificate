@@ -13,6 +13,7 @@ Run:
     python preparePDF2023.py
     python preparePDF2024.py
     python preparePDF2024Hackaton.py
+    python3 prepareCometa2026.py
 
 NB:
 
