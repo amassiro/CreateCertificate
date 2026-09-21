@@ -22,6 +22,10 @@ NB:
 Join pdf files:
 
     pdftk pdf/*.pdf cat output merged.pdf
-    
-    
+
+Or zip them:
+
+    zip -r pdf.zip pdf
+
+
     
