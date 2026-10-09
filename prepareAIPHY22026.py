@@ -49,7 +49,14 @@ if __name__ == "__main__":
         
         # os.system ("wkhtmltopdf  CertificateTemplate." + row[0].replace(" ", "") + ".html  pdf/Certificato." + row[0].replace(" ", "") + ".pdf")
         # os.system ("wkhtmltopdf --enable-local-file-access CertificateTemplate." + row[0].replace(" ", "") + ".html  pdf/Certificato." + row[0].replace(" ", "") + ".pdf")
-        os.system ("wkhtmltopdf --enable-local-file-access CertificateTemplate." + row[0].replace(" ", "") + ".html  pdf/Certificato." + row[1].replace(" ", "_") + ".pdf")
+        # os.system ("wkhtmltopdf --enable-local-file-access CertificateTemplate." + row[0].replace(" ", "") + ".html  pdf/Certificato." + row[1].replace(" ", "_") + ".pdf")
+        os.system ("wkhtmltopdf --enable-local-file-access "
+          "--page-size A4 --orientation Portrait "
+          "--margin-top 25mm --margin-bottom 25mm "
+          "--margin-left 25mm --margin-right 25mm "
+          "--disable-smart-shrinking "
+          "CertificateTemplate." + row[0].replace(" ", "") + ".html  pdf/Certificate_Attendance_AIPHY2." + row[1].replace(" ", "_") + ".pdf")
+
         os.system ("rm           CertificateTemplate." + row[0].replace(" ", "") + ".html ")
         
 
